@@ -1,0 +1,99 @@
+5 packages are looking for funding
+  run `npm fund` for details
+
+found [32m[1m0[22m[39m vulnerabilities
+[37;40mnpm[0m [0m[36;40mnotice[0m[35m[0m 
+[0m[37;40mnpm[0m [0m[36;40mnotice[0m[35m[0m New [31mmajor[39m version of npm available! [31m8.11.0[39m -> [32m9.1.2[39m
+[0m[37;40mnpm[0m [0m[36;40mnotice[0m[35m[0m Changelog: [36mhttps://github.com/npm/cli/releases/tag/v9.1.2[39m
+[0m[37;40mnpm[0m [0m[36;40mnotice[0m[35m[0m Run [32mnpm install -g npm@9.1.2[39m to update!
+[0m[37;40mnpm[0m [0m[36;40mnotice[0m[35m[0m 
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mconfig[0m production Use `--omit=dev` instead.
+[0m[?25l[[100;90m..................[0m] | reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K[[100;90m..................[0m] - idealTree: [7msill[0m [35mlogfile[0m done cleaning log files[0m[K[[107;97m#########[0m[100;90m.........[0m] / idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 206ms[0m[K[[107;97m#########[0m[100;90m.........[0m] / idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 206ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 206ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 206ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 206ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 206ms[0m[K[K[?25h
+up to date, audited 78 packages in 1s
+
+5 packages are looking for funding
+  run `npm fund` for details
+
+found [32m[1m0[22m[39m vulnerabilities
+// strawberrybot online //
+// connected to mongo //
+(node:81) DeprecationWarning: The message event is deprecated. Use messageCreate instead
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Running command &c
+Running command &c
+Running command &s
+Running command &s
+Running command &c
+Running command &c
+Running command &s
+Running command &c
+Running command &help
+Running command &score
+Running command &score
+Running command &score
+Running command &score
+Running command &score
+Running command &score
+Running command &g
+Running command &g
+Running command &s
+Running command &s
+Running command &search
+Running command &search
+Running command &search
+Running command &search
+Running command &search
+Running command &search
+/home/container/node_modules/discord.js/src/rest/RequestHandler.js:350
+      throw new DiscordAPIError(data, res.status, request);
+            ^
+
+DiscordAPIError: Invalid Form Body
+embeds[0].description: This field is required
+    at RequestHandler.execute (/home/container/node_modules/[4mdiscord.js[24m/src/rest/RequestHandler.js:350:13)
+    at runMicrotasks (<anonymous>)
+[90m    at processTicksAndRejections (node:internal/process/task_queues:96:5)[39m
+    at async RequestHandler.push (/home/container/node_modules/[4mdiscord.js[24m/src/rest/RequestHandler.js:51:14)
+    at async ButtonInteraction.update (/home/container/node_modules/[4mdiscord.js[24m/src/structures/interfaces/InteractionResponses.js:218:5)
+    at async InteractionCollector.<anonymous> (/home/container/search.js:91:22) {
+  method: [32m'post'[39m,
+  path: [32m'/interactions/1042615602998689932/aW50ZXJhY3Rpb246MTA0MjYxNTYwMjk5ODY4OTkzMjoxOFk1bzlFcTYxOE84NG0xdWdNcUk0R0c1NFRJdU9IOFdrcUM5ODQzZ3Nxek13S0dIQlBRVXRUUUFtaXM2MGRpTEJseDNqSFJkMDQ1RHhQanZHNjVJdjlzeEF2Q0REQ0w2ZlFsNkN0MEZmdFU2d1BjZWx5UW5ESkRFRHR1RVdYSA/callback'[39m,
+  code: [33m50035[39m,
+  httpStatus: [33m400[39m,
+  requestData: {
+    json: {
+      type: [33m7[39m,
+      data: {
+        content: [90mundefined[39m,
+        tts: [33mfalse[39m,
+        nonce: [90mundefined[39m,
+        embeds: [
+          {
+            title: [1mnull[22m,
+            type: [32m'rich'[39m,
+            description: [1mnull[22m,
+            url: [1mnull[22m,
+            timestamp: [1mnull[22m,
+            color: [1mnull[22m,
+            fields: [],
+            thumbnail: [1mnull[22m,
+            image: [1mnull[22m,
+            author: [1mnull[22m,
+            footer: [1mnull[22m
+          }
+        ],
+        components: [ { components: [36m[Array][39m, type: [33m1[39m } ],
+        username: [90mundefined[39m,
+        avatar_url: [90mundefined[39m,
+        allowed_mentions: [90mundefined[39m,
+        flags: [90mundefined[39m,
+        message_reference: [90mundefined[39m,
+        attachments: [90mundefined[39m,
+        sticker_ids: [90mundefined[39m
+      }
+    },
+    files: []
+  }
+}
+
+Node.js v17.9.1

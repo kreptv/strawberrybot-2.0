@@ -1,0 +1,35 @@
+NodeJS version: v17.9.1
+NPM version: 8.11.0
+Yarn version: 22.19
+Git version: 2.30.2
+customer@sparkedhost:~# if [[ -d .git ]]; then git pull; fi; if [[ ! -z ${NODE_PACKAGES} ]]; then npm install ${NODE_PACKAGES}; fi; if [ -f /home/container/package.json ]; then npm install --production; fi; node /home/container/${STARTUP_FILE}
+[?25l[[100;90m..................[0m] \ reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K[[100;90m..................[0m] / idealTree: [7msill[0m [35mlogfile[0m start cleaning logs, removing 2[0m[K[[100;90m..................[0m] / idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] - idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] - idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[107;97m#########[0m[100;90m.........[0m] \ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 606ms[0m[K[[107;97m#########[0m[100;90m.........[0m] | idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 606ms[0m[K[[107;97m#########[0m[100;90m.........[0m] | idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 606ms[0m[K[[107;97m#########[0m[100;90m.........[0m] | idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 606ms[0m[K[[107;97m#########[0m[100;90m.........[0m] | idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 606ms[0m[K[K[?25h
+up to date, audited 78 packages in 1s
+
+5 packages are looking for funding
+  run `npm fund` for details
+
+found [32m[1m0[22m[39m vulnerabilities
+[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mconfig[0m production Use `--omit=dev` instead.
+[0m[?25l[[100;90m..................[0m] | reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K[[107;97m#########[0m[100;90m.........[0m] / idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 199ms[0m[K[[107;97m#########[0m[100;90m.........[0m] / idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 199ms[0m[K[[107;97m#########[0m[100;90m.........[0m] / idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 199ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 199ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 199ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 199ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 199ms[0m[K[K[?25h
+up to date, audited 78 packages in 1s
+
+5 packages are looking for funding
+  run `npm fund` for details
+
+found [32m[1m0[22m[39m vulnerabilities
+// strawberrybot online //
+// connected to mongo //
+Running command &addAlias
+(node:80) DeprecationWarning: The message event is deprecated. Use messageCreate instead
+(Use `node --trace-deprecation ...` to show where the warning was created)
+/home/container/add-song.js:226
+          jc: jc,
+              ^
+
+ReferenceError: jc is not defined
+    at /home/container/add-song.js:226:15
+[90m    at processTicksAndRejections (node:internal/process/task_queues:96:5)[39m
+    at async /home/container/add-song.js:219:5
+
+Node.js v17.9.1

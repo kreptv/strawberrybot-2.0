@@ -1,0 +1,100 @@
+up to date, audited 149 packages in 6s
+
+8 packages are looking for funding
+  run `npm fund` for details
+
+[31m[1m5[22m[39m vulnerabilities (2 [33m[1mmoderate[22m[39m, 2 [31m[1mhigh[22m[39m, 1 [35m[1mcritical[22m[39m)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mconfig[0m production Use `--omit=dev` instead.
+[0m[?25l[[100;90m..................[0m] | reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K[[107;97m#########[0m[100;90m.........[0m] / idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 394ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 394ms[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] - reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] \ reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] \ reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] \ reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] - reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] | reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] | reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] | reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] | reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] | reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] \ reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] \ reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[K[?25h
+up to date, audited 149 packages in 2s
+
+8 packages are looking for funding
+  run `npm fund` for details
+
+[31m[1m5[22m[39m vulnerabilities (2 [33m[1mmoderate[22m[39m, 2 [31m[1mhigh[22m[39m, 1 [35m[1mcritical[22m[39m)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+// strawberrybot online //
+// connected to mongo //
+(node:93) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [Client]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:93) DeprecationWarning: The message event is deprecated. Use messageCreate instead
+Running command &vp
+Running command &sp
+Running command &vp
+Running command &ra
+Running command &vp
+Running command &sp
+Running command &vp
+Running command &vp
+Running command &registerart
+Running command &vp
+Running command &ra
+Running command &ra
+Running command &ra
+Running command &vp
+Running command &vp
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &registerart
+Running command &registerart
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &generatememe
+Running command &pat
+Running command &pat
+Running command &registerart
+Running command &registerart
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s

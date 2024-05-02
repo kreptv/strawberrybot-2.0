@@ -1,0 +1,49 @@
+NodeJS version: v17.9.1
+NPM version: 8.11.0
+Yarn version: 22.19
+Git version: 2.30.2
+customer@sparkedhost:~# if [[ -d .git ]]; then git pull; fi; if [[ ! -z ${NODE_PACKAGES} ]]; then npm install ${NODE_PACKAGES}; fi; if [ -f /home/container/package.json ]; then npm install --production; fi; node /home/container/${STARTUP_FILE}
+[?25l[[100;90m..................[0m] \ reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K[[100;90m..................[0m] - idealTree: [7msill[0m [35mlogfile[0m start cleaning logs, removing 2[0m[K[[100;90m..................[0m] - idealTree: [7msill[0m [35mlogfile[0m start cleaning logs, removing 2[0m[K[[100;90m..................[0m] - idealTree: [7msill[0m [35mlogfile[0m start cleaning logs, removing 2[0m[K[[100;90m..................[0m] \ idealTree: [7msill[0m [35mlogfile[0m start cleaning logs, removing 2[0m[K[[100;90m..................[0m] \ idealTree: [7msill[0m [35mlogfile[0m start cleaning logs, removing 2[0m[K[[100;90m..................[0m] \ idealTree: [7msill[0m [35mlogfile[0m start cleaning logs, removing 2[0m[K[[100;90m..................[0m] \ idealTree: [7msill[0m [35mlogfile[0m start cleaning logs, removing 2[0m[K[[100;90m..................[0m] \ idealTree: [7msill[0m [35mlogfile[0m start cleaning logs, removing 2[0m[K[[100;90m..................[0m] \ idealTree: [7msill[0m [35mlogfile[0m start cleaning logs, removing 2[0m[K[[100;90m..................[0m] \ idealTree: [7msill[0m [35mlogfile[0m start cleaning logs, removing 2[0m[K[[100;90m..................[0m] \ idealTree: [7msill[0m [35mlogfile[0m start cleaning logs, removing 2[0m[K[[100;90m..................[0m] \ idealTree: [7msill[0m [35mlogfile[0m start cleaning logs, removing 2[0m[K[[100;90m..................[0m] \ idealTree: [7msill[0m [35mlogfile[0m start cleaning logs, removing 2[0m[K[[100;90m..................[0m] \ idealTree: [7msill[0m [35mlogfile[0m start cleaning logs, removing 2[0m[K[[100;90m..................[0m] \ idealTree: [7msill[0m [35mlogfile[0m start cleaning logs, removing 2[0m[K[[100;90m..................[0m] \ idealTree: [7msill[0m [35mlogfile[0m start cleaning logs, removing 2[0m[K[[100;90m..................[0m] \ idealTree: [7msill[0m [35mlogfile[0m start cleaning logs, removing 2[0m[K[[100;90m..................[0m] \ idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] \ idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] \ idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] \ idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] \ idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] \ idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] \ idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] \ idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] \ idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] | idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] | idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] | idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] | idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] | idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[107;97m#########[0m[100;90m.........[0m] | reify:play-dl: [7msill[0m [35maudit[0m bulk request {[0m[K[[107;97m#########[0m[100;90m.........[0m] - reify:play-dl: [7msill[0m [35maudit[0m bulk request {[0m[K[[107;97m#########[0m[100;90m.........[0m] - reify:play-dl: [7msill[0m [35maudit[0m bulk request {[0m[K[[107;97m#########[0m[100;90m.........[0m] \ reify:play-dl: [7msill[0m [35maudit[0m bulk request {[0m[K[[107;97m#########[0m[100;90m.........[0m] \ reify:play-dl: [7msill[0m [35maudit[0m bulk request {[0m[K[[107;97m#########[0m[100;90m.........[0m] \ reify:play-dl: [7msill[0m [35maudit[0m bulk request {[0m[K[[107;97m#########[0m[100;90m.........[0m] \ reify:play-dl: [7msill[0m [35maudit[0m bulk request {[0m[K[[107;97m#########[0m[100;90m.........[0m] \ reify:play-dl: [7msill[0m [35maudit[0m bulk request {[0m[K[[107;97m#########[0m[100;90m.........[0m] \ reify:play-dl: [7msill[0m [35maudit[0m bulk request {[0m[K[[107;97m#########[0m[100;90m.........[0m] \ reify:play-dl: [7msill[0m [35maudit[0m bulk request {[0m[K[[107;97m#########[0m[100;90m.........[0m] \ reify:play-dl: [7msill[0m [35maudit[0m bulk request {[0m[K[[107;97m#########[0m[100;90m.........[0m] \ reify:play-dl: [7msill[0m [35maudit[0m bulk request {[0m[K[[107;97m##############[0m[100;90m....[0m] / reify:play-audio: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.np[0m[K[[107;97m##############[0m[100;90m....[0m] / reify:play-audio: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.np[0m[K[[107;97m##############[0m[100;90m....[0m] / reify:play-audio: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.np[0m[K[[107;97m##############[0m[100;90m....[0m] / reify:play-audio: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.np[0m[K[[107;97m##################[0m] - reify:play-dl: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs[0m[K[[107;97m##################[0m] - reify:play-dl: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs[0m[K[[107;97m##################[0m] \ reify:play-dl: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs[0m[K[K[?25h
+added 2 packages, and audited 142 packages in 4s
+
+8 packages are looking for funding
+  run `npm fund` for details
+
+found [32m[1m0[22m[39m vulnerabilities
+[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mconfig[0m production Use `--omit=dev` instead.
+[0m[?25l[[100;90m..................[0m] | reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 3ms[0m[K[[107;97m#########[0m[100;90m.........[0m] / idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 377ms[0m[K[[107;97m#########[0m[100;90m.........[0m] / idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 377ms[0m[K[[107;97m#########[0m[100;90m.........[0m] / idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 377ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 377ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 377ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 377ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 377ms[0m[K[K[?25h
+up to date, audited 142 packages in 2s
+
+8 packages are looking for funding
+  run `npm fund` for details
+
+found [32m[1m0[22m[39m vulnerabilities
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module '@discordjs/voice'
+Require stack:
+- /home/container/listen.js
+- /home/container/index.js
+[90m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[90m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:999:19)[39m
+[90m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+    at Object.<anonymous> (/home/container/listen.js:5:179)
+[90m    at Module._compile (node:internal/modules/cjs/loader:1099:14)[39m
+[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
+[90m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:999:19)[39m
+[90m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+    at Object.<anonymous> (/home/container/index.js:22:16)
+[90m    at Module._compile (node:internal/modules/cjs/loader:1099:14)[39m
+[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
+[90m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m {
+  code: [32m'MODULE_NOT_FOUND'[39m,
+  requireStack: [ [32m'/home/container/listen.js'[39m, [32m'/home/container/index.js'[39m ]
+}
+
+Node.js v17.9.1

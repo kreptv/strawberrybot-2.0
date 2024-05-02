@@ -1,0 +1,66 @@
+NodeJS version: v17.9.1
+NPM version: 8.11.0
+Yarn version: 22.19
+Git version: 2.30.2
+Discord.js version: 13.16.0
+customer@sparkedhost:~# if [[ -d .git ]]; then git pull; fi; if [[ ! -z ${NODE_PACKAGES} ]]; then npm install ${NODE_PACKAGES}; fi; if [ -f /home/container/package.json ]; then npm install --production; fi; node /home/container/${STARTUP_FILE}
+[?25l[[100;90m..................[0m] \ reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K[[100;90m..................[0m] - idealTree: [7msill[0m [35mlogfile[0m done cleaning log files[0m[K[[100;90m..................[0m] \ idealTree: [7msill[0m [35mlogfile[0m done cleaning log files[0m[K[[100;90m..................[0m] / idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] / idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[107;97m#########[0m[100;90m.........[0m] \ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 707ms[0m[K[[107;97m#########[0m[100;90m.........[0m] \ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 707ms[0m[K[[107;97m#########[0m[100;90m.........[0m] | idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 707ms[0m[K[[107;97m#########[0m[100;90m.........[0m] | idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 707ms[0m[K[[107;97m#########[0m[100;90m.........[0m] \ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 707ms[0m[K[[107;97m#########[0m[100;90m.........[0m] \ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 707ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 707ms[0m[K[K[?25h
+up to date, audited 146 packages in 2s
+
+8 packages are looking for funding
+  run `npm fund` for details
+
+[31m[1m2[22m[39m vulnerabilities (1 [33m[1mmoderate[22m[39m, 1 [35m[1mcritical[22m[39m)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mconfig[0m production Use `--omit=dev` instead.
+[0m[?25l[[100;90m..................[0m] | reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K[[107;97m#########[0m[100;90m.........[0m] / idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] / idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] / idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[[107;97m#########[0m[100;90m.........[0m] / idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 280ms[0m[K[K[?25h
+up to date, audited 146 packages in 5s
+
+8 packages are looking for funding
+  run `npm fund` for details
+
+[31m[1m2[22m[39m vulnerabilities (1 [33m[1mmoderate[22m[39m, 1 [35m[1mcritical[22m[39m)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+// strawberrybot online //
+// connected to mongo //
+(node:94) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [Client]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+Running command &addkurtimage
+(node:94) DeprecationWarning: The message event is deprecated. Use messageCreate instead
+Running command &addkurtimage
+Running command &addkurtimage
+Running command &addkurtimage
+Running command &addkurtimage
+Running command &addkurtimage
+Running command &addkurtimage
+Running command &addkurtimage
+Running command &addkurtimage
+Running command &addkurtimage
+Running command &addkurtimage
+Running command &addkurtlyrics
+/home/container/node_modules/mongoose/lib/cast.js:261
+          throw new StrictModeError(path, 'Path "' + path + '" is not in ' +
+                ^
+
+StrictModeError: Path "band" is not in schema, strict mode is `true`, and upsert is `true`.
+    at cast (/home/container/node_modules/[4mmongoose[24m/lib/cast.js:261:17)
+    at model.Query.Query.cast (/home/container/node_modules/[4mmongoose[24m/lib/query.js:4937:12)
+    at castQuery (/home/container/node_modules/[4mmongoose[24m/lib/query.js:4738:18)
+    at model.Query.Query._findAndModify (/home/container/node_modules/[4mmongoose[24m/lib/query.js:3598:23)
+    at model.Query.<anonymous> (/home/container/node_modules/[4mmongoose[24m/lib/query.js:3164:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (/home/container/node_modules/[4mmongoose[24m/lib/helpers/query/wrapThunk.js:16:8)
+    at /home/container/node_modules/[4mkareem[24m/index.js:370:33
+[90m    at processTicksAndRejections (node:internal/process/task_queues:78:11)[39m {
+  isImmutableError: [33mfalse[39m,
+  path: [32m'band'[39m
+}
+
+Node.js v17.9.1

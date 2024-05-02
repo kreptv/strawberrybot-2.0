@@ -1,0 +1,60 @@
+NodeJS version: v17.9.1
+NPM version: 8.11.0
+Yarn version: 22.19
+Git version: 2.30.2
+Discord.js version: 13.17.1
+customer@apollopanel:~# if [[ -d .git ]]; then git pull; fi; if [[ ! -z ${NODE_PACKAGES} ]]; then npm install ${NODE_PACKAGES}; fi; if [ -f /home/container/package.json ]; then npm install --production; fi; node /home/container/${STARTUP_FILE}
+[?25l[[100;90m..................[0m] \ reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K[[100;90m..................[0m] / idealTree: [7msill[0m [35mlogfile[0m done cleaning log files[0m[K[[100;90m..................[0m] - idealTree: [7msill[0m [35mlogfile[0m done cleaning log files[0m[K[[100;90m..................[0m] - idealTree: [7msill[0m [35mlogfile[0m done cleaning log files[0m[K[[100;90m..................[0m] \ idealTree: [7msill[0m [35mlogfile[0m done cleaning log files[0m[K[[100;90m..................[0m] / idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[107;97m#########[0m[100;90m.........[0m] / idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 1261ms[0m[K[[107;97m##################[0m] \ reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] | reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] | reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] | reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] \ reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[K[?25h
+up to date, audited 149 packages in 3s
+
+8 packages are looking for funding
+  run `npm fund` for details
+
+[31m[1m3[22m[39m vulnerabilities (2 [33m[1mmoderate[22m[39m, 1 [35m[1mcritical[22m[39m)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mconfig[0m production Use `--omit=dev` instead.
+[0m[?25l[[100;90m..................[0m] | reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K[[107;97m#########[0m[100;90m.........[0m] / idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 296ms[0m[K[[107;97m#########[0m[100;90m.........[0m] / idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 296ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 296ms[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] - reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] \ reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] \ reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] \ reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] - reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] \ reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[K[?25h
+up to date, audited 149 packages in 2s
+
+8 packages are looking for funding
+  run `npm fund` for details
+
+[31m[1m3[22m[39m vulnerabilities (2 [33m[1mmoderate[22m[39m, 1 [35m[1mcritical[22m[39m)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+// strawberrybot online //
+// connected to mongo //
+(node:94) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [Client]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:94) DeprecationWarning: The message event is deprecated. Use messageCreate instead
+Running command &ra
+/home/container/artServerPoints.js:266
+                    const typeOfArtmessage = await message.channel.send({content: typeOfArtmessage(typeOfArtRow)})
+                                                                                  ^
+
+ReferenceError: Cannot access 'typeOfArtmessage' before initialization
+    at /home/container/artServerPoints.js:266:83
+    at /home/container/command.js:15:9
+    at Array.forEach (<anonymous>)
+    at Client.<anonymous> (/home/container/command.js:10:13)
+[90m    at Client.emit (node:events:539:35)[39m
+    at MessageCreateAction.handle (/home/container/node_modules/[4mdiscord.js[24m/src/client/actions/MessageCreate.js:34:18)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/container/node_modules/[4mdiscord.js[24m/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/container/node_modules/[4mdiscord.js[24m/src/client/websocket/WebSocketManager.js:346:31)
+    at WebSocketShard.onPacket (/home/container/node_modules/[4mdiscord.js[24m/src/client/websocket/WebSocketShard.js:493:22)
+    at WebSocketShard.onMessage (/home/container/node_modules/[4mdiscord.js[24m/src/client/websocket/WebSocketShard.js:327:10)
+    at callListener (/home/container/node_modules/[4mws[24m/lib/event-target.js:290:14)
+    at WebSocket.onMessage (/home/container/node_modules/[4mws[24m/lib/event-target.js:209:9)
+[90m    at WebSocket.emit (node:events:527:28)[39m
+    at Receiver.receiverOnMessage (/home/container/node_modules/[4mws[24m/lib/websocket.js:1184:20)
+[90m    at Receiver.emit (node:events:527:28)[39m
+    at Receiver.dataMessage (/home/container/node_modules/[4mws[24m/lib/receiver.js:541:14)
+
+Node.js v17.9.1

@@ -1,0 +1,100 @@
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &search
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &score
+Running command &score
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &score
+Running command &score
+Running command &search
+Running command &s
+/home/container/node_modules/discord.js/src/rest/RequestHandler.js:350
+      throw new DiscordAPIError(data, res.status, request);
+            ^
+
+DiscordAPIError: Invalid Form Body
+message_reference: Unknown message
+    at RequestHandler.execute (/home/container/node_modules/[4mdiscord.js[24m/src/rest/RequestHandler.js:350:13)
+    at runMicrotasks (<anonymous>)
+[90m    at processTicksAndRejections (node:internal/process/task_queues:96:5)[39m
+    at async RequestHandler.push (/home/container/node_modules/[4mdiscord.js[24m/src/rest/RequestHandler.js:51:14)
+    at async TextChannel.send (/home/container/node_modules/[4mdiscord.js[24m/src/structures/interfaces/TextBasedChannel.js:158:15) {
+  method: [32m'post'[39m,
+  path: [32m'/channels/1103006616514736159/messages'[39m,
+  code: [33m50035[39m,
+  httpStatus: [33m400[39m,
+  requestData: {
+    json: {
+      content: [32m'Incorrect! Answer was Hot Water on Wool.'[39m,
+      tts: [33mfalse[39m,
+      nonce: [90mundefined[39m,
+      embeds: [90mundefined[39m,
+      components: [90mundefined[39m,
+      username: [90mundefined[39m,
+      avatar_url: [90mundefined[39m,
+      allowed_mentions: [90mundefined[39m,
+      flags: [90mundefined[39m,
+      message_reference: { message_id: [32m'1105542391848509620'[39m, fail_if_not_exists: [33mtrue[39m },
+      attachments: [90mundefined[39m,
+      sticker_ids: [90mundefined[39m,
+      thread_name: [90mundefined[39m
+    },
+    files: []
+  }
+}
+
+Node.js v17.9.1

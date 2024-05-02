@@ -1,0 +1,100 @@
+Running command &s
+Running command &score
+Running command &score
+Running command &score
+Running command &score
+Running command &score
+Running command &score
+Running command &score
+Running command &score
+Running command &score
+Running command &score
+Running command &score
+Running command &score
+Running command &s
+Running command &s
+Running command &pat
+Running command &pat
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &c
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &g
+Running command &s
+Running command &help
+Running command &s
+Running command &g
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &help
+Running command &g
+Running command &s
+Running command &c
+/home/container/competitive.js:217
+              	         return ((response.content.toLowerCase().includes(songName.toLowerCase()) || aliases.indexOf(response.content.toLowerCase()) != -1) && !response.author.bot) ;
+              	                                                                   ^
+
+TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+    at MessageCollector.filter (/home/container/competitive.js:217:83)
+    at MessageCollector.handleCollect (/home/container/node_modules/[4mdiscord.js[24m/src/structures/interfaces/Collector.js:102:32)
+[90m    at processTicksAndRejections (node:internal/process/task_queues:96:5)[39m
+
+Node.js v17.9.1

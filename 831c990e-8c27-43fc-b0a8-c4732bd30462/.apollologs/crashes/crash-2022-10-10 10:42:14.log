@@ -1,0 +1,100 @@
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &help
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &help
+Running command &search
+Running command &search
+Running command &g
+Running command &g
+Running command &g
+Running command &g
+Running command &g
+Running command &g
+Running command &g
+Running command &g
+Running command &g
+/home/container/node_modules/discord.js/src/structures/Message.js:818
+    if (!this.channel) return Promise.reject(new Error('CHANNEL_NOT_CACHED'));
+                                             ^
+
+Error [CHANNEL_NOT_CACHED]: Could not find the channel where this message came from in the cache!
+    at Message.reply (/home/container/node_modules/[4mdiscord.js[24m/src/structures/Message.js:818:46)
+    at /home/container/guess.js:239:18
+    at runMicrotasks (<anonymous>)
+[90m    at processTicksAndRejections (node:internal/process/task_queues:96:5)[39m {
+  [[32mSymbol(code)[39m]: [32m'CHANNEL_NOT_CACHED'[39m
+}
+
+Node.js v17.9.1

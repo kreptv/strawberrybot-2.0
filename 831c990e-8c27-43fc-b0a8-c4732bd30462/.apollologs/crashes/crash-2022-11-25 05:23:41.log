@@ -1,0 +1,36 @@
+NodeJS version: v17.9.1
+NPM version: 8.11.0
+Yarn version: 22.19
+Git version: 2.30.2
+customer@sparkedhost:~# if [[ -d .git ]]; then git pull; fi; if [[ ! -z ${NODE_PACKAGES} ]]; then npm install ${NODE_PACKAGES}; fi; if [ -f /home/container/package.json ]; then npm install --production; fi; node /home/container/${STARTUP_FILE}
+[?25l[[100;90m..................[0m] \ reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K[[100;90m..................[0m] / idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] / idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] - idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[107;97m#########[0m[100;90m.........[0m] \ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 669ms[0m[K[[107;97m#########[0m[100;90m.........[0m] \ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 669ms[0m[K[[107;97m#########[0m[100;90m.........[0m] | idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 669ms[0m[K[[107;97m#########[0m[100;90m.........[0m] | idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 669ms[0m[K[[107;97m#########[0m[100;90m.........[0m] | idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 669ms[0m[K[K[?25h
+up to date, audited 78 packages in 1s
+
+5 packages are looking for funding
+  run `npm fund` for details
+
+found [32m[1m0[22m[39m vulnerabilities
+[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mconfig[0m production Use `--omit=dev` instead.
+[0m[?25l[[100;90m..................[0m] | reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K[[100;90m..................[0m] / reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K[[107;97m#########[0m[100;90m.........[0m] / idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 205ms[0m[K[[107;97m#########[0m[100;90m.........[0m] / idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 205ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 205ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 205ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 205ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 205ms[0m[K[K[?25h
+up to date, audited 78 packages in 1s
+
+5 packages are looking for funding
+  run `npm fund` for details
+
+found [32m[1m0[22m[39m vulnerabilities
+// strawberrybot online //
+// connected to mongo //
+(node:81) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [Client]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+Running command &d
+(node:81) DeprecationWarning: The message event is deprecated. Use messageCreate instead
+/home/container/daily.js:103
+            result1 = caller.lastDGD;
+                             ^
+
+TypeError: Cannot read properties of null (reading 'lastDGD')
+    at /home/container/daily.js:103:30
+[90m    at processTicksAndRejections (node:internal/process/task_queues:96:5)[39m
+    at async /home/container/daily.js:99:9
+
+Node.js v17.9.1

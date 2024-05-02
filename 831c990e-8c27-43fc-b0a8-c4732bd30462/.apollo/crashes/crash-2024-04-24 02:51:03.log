@@ -1,0 +1,100 @@
+Running command &s
+Running command &d
+Running command &d
+Running command &s
+Running command &s
+Running command &d
+Running command &d
+Running command &d
+Running command &d
+Running command &d
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &d
+Running command &d
+Running command &d
+Running command &d
+Running command &d
+Running command &s
+Running command &d
+Running command &d
+Running command &d
+Running command &d
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &d
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &d
+Running command &d
+Running command &help
+Running command &score
+Running command &score
+Running command &d
+Running command &s
+Running command &d
+Running command &d
+Running command &d
+/home/container/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/topology.js:1028
+    drainWaitQueue(topology[kWaitQueue], new MongoError('Topology is closed, please connect'));
+                                         ^
+
+MongoError: Topology is closed, please connect
+    at processWaitQueue (/home/container/node_modules/[4mmongoose[24m/node_modules/[4mmongodb[24m/lib/core/sdam/topology.js:1028:42)
+    at NativeTopology.selectServer (/home/container/node_modules/[4mmongoose[24m/node_modules/[4mmongodb[24m/lib/core/sdam/topology.js:448:5)
+    at executeWithServerSelection (/home/container/node_modules/[4mmongoose[24m/node_modules/[4mmongodb[24m/lib/operations/execute_operation.js:131:12)
+    at /home/container/node_modules/[4mmongoose[24m/node_modules/[4mmongodb[24m/lib/operations/execute_operation.js:70:9
+    at maybePromise (/home/container/node_modules/[4mmongoose[24m/node_modules/[4mmongodb[24m/lib/utils.js:692:3)
+    at executeOperation (/home/container/node_modules/[4mmongoose[24m/node_modules/[4mmongodb[24m/lib/operations/execute_operation.js:34:10)
+    at Collection.countDocuments (/home/container/node_modules/[4mmongoose[24m/node_modules/[4mmongodb[24m/lib/collection.js:1599:10)
+    at NativeCollection.<computed> [as countDocuments] (/home/container/node_modules/[4mmongoose[24m/lib/drivers/node-mongodb-native/collection.js:244:33)
+    at model.Query.<anonymous> (/home/container/node_modules/[4mmongoose[24m/lib/query.js:2384:31)
+    at model.Query._wrappedThunk [as _countDocuments] (/home/container/node_modules/[4mmongoose[24m/lib/helpers/query/wrapThunk.js:16:8)
+    at /home/container/node_modules/[4mkareem[24m/index.js:370:33
+[90m    at processTicksAndRejections (node:internal/process/task_queues:78:11)[39m
+
+Node.js v17.9.1

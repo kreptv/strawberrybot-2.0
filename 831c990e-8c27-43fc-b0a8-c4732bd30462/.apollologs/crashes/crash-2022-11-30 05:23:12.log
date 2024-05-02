@@ -1,0 +1,100 @@
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &pat
+Running command &pat
+Running command &pat
+Running command &pat
+Running command &pat
+Running command &pat
+Running command &pat
+Running command &pat
+Running command &pat
+Running command &d
+Running command &s
+Running command &s
+Running command &d
+Running command &pat
+Running command &pat
+Running command &pat
+Running command &pat
+Running command &pat
+Running command &pat
+Running command &pat
+Running command &pat
+Running command &pat
+Running command &pat
+Running command &pat
+Running command &pat
+Running command &pat
+Running command &pat
+Running command &pat
+Running command &pat
+Running command &pat
+Running command &pat
+Running command &pat
+Running command &pat
+Running command &pat
+Running command &pat
+Running command &pat
+Running command &pat
+Running command &pat
+Running command &pat
+Running command &pat
+Running command &d
+Running command &d
+Running command &pat
+Running command &d
+Running command &s
+Running command &pat
+Running command &s
+Running command &s
+Running command &s
+Running command &help
+Running command &d
+Running command &d
+Running command &d
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &d
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &s
+Running command &c
+Running command &c
+Running command &c
+Running command &c
+/home/container/competitive.js:174
+                          var lyricArrayVerses = result.lyrics.split(/\r?\n\n/); // split into array by double newline
+                                                               ^
+
+TypeError: Cannot read properties of undefined (reading 'split')
+    at /home/container/competitive.js:174:64
+    at runMicrotasks (<anonymous>)
+[90m    at processTicksAndRejections (node:internal/process/task_queues:96:5)[39m
+    at async /home/container/competitive.js:101:19
+
+Node.js v17.9.1

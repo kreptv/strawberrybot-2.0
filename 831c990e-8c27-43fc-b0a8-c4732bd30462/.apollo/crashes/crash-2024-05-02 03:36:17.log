@@ -1,0 +1,43 @@
+NodeJS version: v17.9.1
+NPM version: 8.11.0
+Yarn version: 22.19
+Git version: 2.30.2
+Discord.js version: 13.17.1
+customer@apollopanel:~# if [[ -d .git ]]; then git pull; fi; if [[ ! -z ${NODE_PACKAGES} ]]; then npm install ${NODE_PACKAGES}; fi; if [ -f /home/container/package.json ]; then npm install --production; fi; node /home/container/${STARTUP_FILE}
+[?25l[[100;90m..................[0m] \ reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K[[100;90m..................[0m] | reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K[[100;90m..................[0m] - idealTree: [7msill[0m [35mlogfile[0m done cleaning log files[0m[K[[100;90m..................[0m] - idealTree: [7msill[0m [35mlogfile[0m done cleaning log files[0m[K[[100;90m..................[0m] \ idealTree: [7msill[0m [35mlogfile[0m done cleaning log files[0m[K[[100;90m..................[0m] \ idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] / idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] \ idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[107;97m#########[0m[100;90m.........[0m] / idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 1514ms[0m[K[[107;97m##################[0m] \ reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] | reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] | reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] | reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] - reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] - reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] \ reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[K[?25h
+up to date, audited 149 packages in 3s
+
+8 packages are looking for funding
+  run `npm fund` for details
+
+[31m[1m5[22m[39m vulnerabilities (4 [33m[1mmoderate[22m[39m, 1 [35m[1mcritical[22m[39m)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mconfig[0m production Use `--omit=dev` instead.
+[0m[?25l[[100;90m..................[0m] | reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K[[100;90m..................[0m] / reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K[[107;97m#########[0m[100;90m.........[0m] / idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 324ms[0m[K[[107;97m#########[0m[100;90m.........[0m] / idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 324ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 324ms[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] - reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] - reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] - reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] | reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] | reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[K[?25h
+up to date, audited 149 packages in 3s
+
+8 packages are looking for funding
+  run `npm fund` for details
+
+[31m[1m5[22m[39m vulnerabilities (4 [33m[1mmoderate[22m[39m, 1 [35m[1mcritical[22m[39m)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+// strawberrybot online //
+// connected to mongo //
+/home/container/index.js:47
+    index = index > messages.length - 2 ? 0 : index + 1;
+    ^
+
+ReferenceError: index is not defined
+    at Timeout._onTimeout (/home/container/index.js:47:5)
+[90m    at listOnTimeout (node:internal/timers:559:17)[39m
+[90m    at processTimers (node:internal/timers:502:7)[39m
+
+Node.js v17.9.1

@@ -1,0 +1,58 @@
+NodeJS version: v17.9.1
+NPM version: 8.11.0
+Yarn version: 22.19
+Git version: 2.30.2
+Discord.js version: 13.17.1
+customer@apollopanel:~# if [[ -d .git ]]; then git pull; fi; if [[ ! -z ${NODE_PACKAGES} ]]; then npm install ${NODE_PACKAGES}; fi; if [ -f /home/container/package.json ]; then npm install --production; fi; node /home/container/${STARTUP_FILE}
+[?25l[[100;90m..................[0m] \ reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 0ms[0m[K[[100;90m..................[0m] - idealTree: [7msill[0m [35mlogfile[0m done cleaning log files[0m[K[[100;90m..................[0m] \ idealTree: [7msill[0m [35mlogfile[0m done cleaning log files[0m[K[[100;90m..................[0m] \ idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] / idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] \ idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[107;97m#########[0m[100;90m.........[0m] / idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 987ms[0m[K[[107;97m##################[0m] \ reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] | reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] | reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] - reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] \ reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[K[?25h
+up to date, audited 149 packages in 2s
+
+8 packages are looking for funding
+  run `npm fund` for details
+
+[31m[1m5[22m[39m vulnerabilities (4 [33m[1mmoderate[22m[39m, 1 [35m[1mcritical[22m[39m)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mconfig[0m production Use `--omit=dev` instead.
+[0m[?25l[[100;90m..................[0m] | reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K[[107;97m#########[0m[100;90m.........[0m] / idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 322ms[0m[K[[107;97m#########[0m[100;90m.........[0m] / idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 322ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 322ms[0m[K[[107;97m##################[0m] / reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] - reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] - reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] \ reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] \ reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] - reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] - reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] | reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[[107;97m##################[0m] \ reify:@napi-rs/canvas-android-arm64: [32;40mtiming[0m [35mreifyNode:no[0m[K[K[?25h
+up to date, audited 149 packages in 2s
+
+8 packages are looking for funding
+  run `npm fund` for details
+
+[31m[1m5[22m[39m vulnerabilities (4 [33m[1mmoderate[22m[39m, 1 [35m[1mcritical[22m[39m)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+// strawberrybot online //
+// connected to mongo //
+(node:93) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [Client]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:93) DeprecationWarning: The message event is deprecated. Use messageCreate instead
+Running command &s
+Running command &c
+Running command &c
+/home/container/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/topology.js:1028
+    drainWaitQueue(topology[kWaitQueue], new MongoError('Topology is closed, please connect'));
+                                         ^
+
+MongoError: Topology is closed, please connect
+    at processWaitQueue (/home/container/node_modules/[4mmongoose[24m/node_modules/[4mmongodb[24m/lib/core/sdam/topology.js:1028:42)
+    at NativeTopology.selectServer (/home/container/node_modules/[4mmongoose[24m/node_modules/[4mmongodb[24m/lib/core/sdam/topology.js:448:5)
+    at executeWithServerSelection (/home/container/node_modules/[4mmongoose[24m/node_modules/[4mmongodb[24m/lib/operations/execute_operation.js:131:12)
+    at /home/container/node_modules/[4mmongoose[24m/node_modules/[4mmongodb[24m/lib/operations/execute_operation.js:70:9
+    at maybePromise (/home/container/node_modules/[4mmongoose[24m/node_modules/[4mmongodb[24m/lib/utils.js:692:3)
+    at executeOperation (/home/container/node_modules/[4mmongoose[24m/node_modules/[4mmongodb[24m/lib/operations/execute_operation.js:34:10)
+    at Collection.countDocuments (/home/container/node_modules/[4mmongoose[24m/node_modules/[4mmongodb[24m/lib/collection.js:1599:10)
+    at NativeCollection.<computed> [as countDocuments] (/home/container/node_modules/[4mmongoose[24m/lib/drivers/node-mongodb-native/collection.js:244:33)
+    at model.Query.<anonymous> (/home/container/node_modules/[4mmongoose[24m/lib/query.js:2384:31)
+    at model.Query._wrappedThunk [as _countDocuments] (/home/container/node_modules/[4mmongoose[24m/lib/helpers/query/wrapThunk.js:16:8)
+    at /home/container/node_modules/[4mkareem[24m/index.js:370:33
+[90m    at processTicksAndRejections (node:internal/process/task_queues:78:11)[39m
+
+Node.js v17.9.1
